@@ -31,3 +31,9 @@ SELECT
 ```
 📂 For the full set of queries, check the
     
+# 📊 Visualization
+An interactive Tableau Public dashboard was created to display:
+- Revenue distribution per warehouse
+- Monthly revenue trends
+- Product line performance
+- 🔗 https://public.tableau.com/views/MotorcycleSalesPartDashboard/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
