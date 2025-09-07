@@ -8,20 +8,39 @@ The company operates three warehouses, selling motorcycle parts through both ret
 3. Performance differences across warehouses
 
 # 🛠 Tools Used
-● SQL → for querying, grouping, and calculating net revenue
-
-● Tableau Public → for interactive dashboards and visualization
+- SQL → for querying, grouping, and calculating net revenue
+- Tableau Public → for interactive dashboards and visualization
 
 # 📚 Credits & Acknowledgements
 - This project was inspired by and uses a dataset provided in a DataCamp project.
 - Dataset & project context: © DataCamp
-
-All SQL queries, analysis, and additional work in this repository were created by me.
-You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
+- All SQL queries, analysis, and additional work in this repository were created by me.
+- You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
 
 # 🔍 Analysis Focus
-● Revenue trends: Analyzing net revenue across product lines and warehouses
+- Revenue trends: Analyzing net revenue across product lines and warehouses
+- Client segmentation: Focusing on wholesale clients for deeper insights
+- Time-based patterns: Understanding sales performance by month
 
-● Client segmentation: Focusing on wholesale clients for deeper insights
+# 🖥️ Sample SQL Query
+SELECT 
+    product_line,
+    TRIM(TO_CHAR(date, 'Month')) AS month,
+    warehouse,
+    SUM(total) - SUM(payment_fee) AS net_revenue
+FROM sales
+WHERE client_type = 'Wholesale'
+GROUP BY product_line, warehouse, month
+ORDER BY product_line, month DESC, net_revenue DESC;
 
-● Time-based patterns: Understanding sales performance by month
+- Explanation:
+
+TRIM(TO_CHAR(date, 'Month')): Extracts and cleans the month name
+
+SUM(total) - SUM(payment_fee): Calculates net revenue
+
+WHERE client_type = 'Wholesale': Filters only wholesale transactions
+
+GROUP BY: Groups by product line, warehouse, and month
+
+ORDER BY: Sorts results for better readability
