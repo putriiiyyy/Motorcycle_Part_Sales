@@ -9,6 +9,7 @@ The company operates three warehouses, selling motorcycle parts through both ret
 
 # 🛠 Tools Used
 ● SQL → for querying, grouping, and calculating net revenue
+
 ● Tableau Public → for interactive dashboards and visualization
 
 # 📚 Credits & Acknowledgements
