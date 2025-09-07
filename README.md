@@ -11,4 +11,8 @@ The company operates three warehouses, selling motorcycle parts through both ret
 ● SQL → for querying, grouping, and calculating net revenue
 ● Tableau Public → for interactive dashboards and visualization
 
-# 📂 Project Structure
+# 📚 Credits & Acknowledgements
+This project was inspired by and uses a dataset provided in a DataCamp project.
+Dataset & project context: © DataCamp
+All SQL queries, analysis, and additional work in this repository were created by me.
+You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
