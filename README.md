@@ -6,3 +6,9 @@ The company operates three warehouses, selling motorcycle parts through both ret
 1. How wholesale net revenue varies by product line
 2. Month-to-month revenue trends
 3. Performance differences across warehouses
+
+# 🛠 Tools Used
+● SQL → for querying, grouping, and calculating net revenue
+● Tableau Public → for interactive dashboards and visualization
+
+# 📂 Project Structure
