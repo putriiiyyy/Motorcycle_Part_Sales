@@ -23,7 +23,8 @@ SELECT
     TRIM(TO_CHAR(date, 'Month')) AS month,
     ....
 ```
-📂 For the full set of queries, check the
+📂 For the full set of queries, check the [SQL_code](SQL/.sql)
+
     
 # 📊 Visualization
 An interactive Tableau Public dashboard was created to display:
