@@ -13,7 +13,7 @@ The company operates three warehouses, selling motorcycle parts through both ret
 
 # 📚 Credits & Acknowledgements
 - This project was inspired by and uses a dataset provided in a DataCamp project.
-- Dataset & project context: © DataCamp
+- Dataset & project context: **© DataCamp**
 - All SQL queries, analysis, and additional work in this repository were created by me.
 - You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
 
@@ -23,24 +23,8 @@ The company operates three warehouses, selling motorcycle parts through both ret
 - Time-based patterns: Understanding sales performance by month
 
 # 🖥️ Sample SQL Query
-SELECT 
+'''SELECT 
     product_line,
     TRIM(TO_CHAR(date, 'Month')) AS month,
-    warehouse,
-    SUM(total) - SUM(payment_fee) AS net_revenue
-FROM sales
-WHERE client_type = 'Wholesale'
-GROUP BY product_line, warehouse, month
-ORDER BY product_line, month DESC, net_revenue DESC;
-
-- Explanation:
-
-TRIM(TO_CHAR(date, 'Month')): Extracts and cleans the month name
-
-SUM(total) - SUM(payment_fee): Calculates net revenue
-
-WHERE client_type = 'Wholesale': Filters only wholesale transactions
-
-GROUP BY: Groups by product line, warehouse, and month
-
-ORDER BY: Sorts results for better readability
+    ....'''
+    
