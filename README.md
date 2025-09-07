@@ -11,12 +11,6 @@ The company operates three warehouses, selling motorcycle parts through both ret
 - SQL → for querying, grouping, and calculating net revenue
 - Tableau Public → for interactive dashboards and visualization
 
-# 📚 Credits & Acknowledgements
-- This project was inspired by and uses a dataset provided in a DataCamp project.
-- Dataset & project context: **© DataCamp**
-- All SQL queries, analysis, and additional work in this repository were created by me.
-- You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
-
 # 🔍 Analysis Focus
 - Revenue trends: Analyzing net revenue across product lines and warehouses
 - Client segmentation: Focusing on wholesale clients for deeper insights
@@ -36,4 +30,10 @@ An interactive Tableau Public dashboard was created to display:
 - Revenue distribution per warehouse
 - Monthly revenue trends
 - Product line performance
-- 🔗 https://public.tableau.com/views/MotorcycleSalesPartDashboard/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+- 🔗 https://public.tableau.com/views/MotorcycleSalesPartDashboard/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+# 📚 Credits & Acknowledgements
+- This project was inspired by and uses a dataset provided in a DataCamp project.
+- Dataset & project context: **© DataCamp**
+- All SQL queries, analysis, and additional work in this repository were created by me.
+- You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
