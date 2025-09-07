@@ -15,5 +15,11 @@ The company operates three warehouses, selling motorcycle parts through both ret
 # 📚 Credits & Acknowledgements
 This project was inspired by and uses a dataset provided in a DataCamp project.
 Dataset & project context: © DataCamp
+
 All SQL queries, analysis, and additional work in this repository were created by me.
 You can learn more about the original project on DataCamp https://www.datacamp.com/datalab/w/05d9eaa7-1db8-4414-872f-29db4ae7b959/edit
+
+# 🔍 Analysis Focus
+Revenue trends: Analyzing net revenue across product lines and warehouses
+Client segmentation: Focusing on wholesale clients for deeper insights
+Time-based patterns: Understanding sales performance by month
