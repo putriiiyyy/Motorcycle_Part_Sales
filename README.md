@@ -23,8 +23,8 @@ The company operates three warehouses, selling motorcycle parts through both ret
 - Time-based patterns: Understanding sales performance by month
 
 # 🖥️ Sample SQL Query
-'''SELECT 
+```SELECT 
     product_line,
     TRIM(TO_CHAR(date, 'Month')) AS month,
-    ....'''
+    ....```
     
