@@ -26,5 +26,7 @@ The company operates three warehouses, selling motorcycle parts through both ret
 ```SELECT 
     product_line,
     TRIM(TO_CHAR(date, 'Month')) AS month,
-    ....```
+    ....
+```
+📂 For the full set of queries, check the
     
